@@ -23,5 +23,6 @@ pinregex(test4);
 emailregex("example.test@gmail.co");
 emailregex("check+one@gmail.com");
 emailregex("check#one@gmail.co");
+emailregex("check_one@yahoo.co.in");
 
 
