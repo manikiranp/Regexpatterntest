@@ -1,6 +1,13 @@
 
 console.log("Regex Test Pincode:");
-var test1="400088";
+let test1="400088";
+let test2="A400088";
+
+function pinregex(test) {
 let regex = new RegExp('^[1-9][0 -9]{5}$');
-var validation = regex.test(test1);
-console.log(test1+" "+validation); 
+var validation = regex.test(test);
+console.log(test+" -"+validation);
+}
+
+pinregex(test1);
+pinregex(test2);
